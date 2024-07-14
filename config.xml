@@ -1,0 +1,18 @@
+
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Nokitha_Project</name>
+    <description>A geolocation finder app</description>
+    <!-- Other widget configurations -->
+
+    <!-- Add the following lines to include necessary permissions -->
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.INTERNET" />
+    </platform>
+    <icon src= "celebrity.png"/>
+</widget>
+
+
+
